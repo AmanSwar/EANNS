@@ -1,9 +1,9 @@
 
-### **EANNS – Enhanced Approximate Nearest Neighbor Search**  
-🚀 **High-Performance Vector Database**  
+
 
 ![EANNS Logo](https://github.com/AmanSwar/EANNS/blob/master/images/eannslogo.png)
-
+# **EANNS – Enhanced Approximate Nearest Neighbor Search**  
+ **High-Performance Vector Database**  
 EANNS (**Enhanced Approximate Nearest Neighbor Search**) is a **high-performance, open-source vector database** built from scratch in **C++**, designed for **fast and scalable nearest neighbor search**. Inspired by **FAISS**, EANNS introduces **hybrid storage (RAM & Disk), real-time updates, and metadata-aware filtering**, making it suitable for AI-driven search applications.  
 
 ### 🔥 **Current Status: Under Development**  
