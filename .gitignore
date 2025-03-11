@@ -1,0 +1,12 @@
+
+/build/
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+CMakeCache.txt
+CMakeFiles/
+Makefile
