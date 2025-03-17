@@ -3,8 +3,9 @@
 
 
 const std::vector<float>* eanns::Tensor::get_vector(){
-    const std::vector<float>* ptr = &vector;
-    return ptr;
+    // const std::vector<float>* ptr = &vector;
+    // return ptr;
+    return &vector;
 }
 
 const std::unordered_map<std::string , std::string>* eanns::Tensor::get_metdata(){
