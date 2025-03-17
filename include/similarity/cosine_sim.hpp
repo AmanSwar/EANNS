@@ -1,5 +1,10 @@
 #pragma once
-#include <__clang_cuda_runtime_wrapper.h>
-#include <cuda_runtime.h>
-float cosine_similarity(float* h_vectorA , float* h_vectorB , int n_dim);
+
+void launch_cosine_similarity_kernel(
+    float *space_storage,
+    const float *search_vector,
+    float *similarity_val,
+    int num_vectors,
+    int dim
+);
 
