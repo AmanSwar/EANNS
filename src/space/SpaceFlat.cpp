@@ -1,5 +1,4 @@
 #include "../../include/space/SpaceFlat.hpp"
-#include "../../include/similarity/cosine_sim.hpp"
 
 
 SpaceFlat::SpaceFlat(
@@ -17,6 +16,7 @@ SpaceFlat::SpaceFlat(
 
 void SpaceFlat::insert(eanns::Tensor& vector){
     storage.push_back(vector);
+    vector_storage.push_back(*vector.get_vector()->data());
     vector_count++;
 
 }
@@ -27,10 +27,8 @@ void SpaceFlat::search(eanns::Tensor& vector){
     Brute Force Search
     */
 
-    float highest_similarity = 0;
-    for(int index = 0 ; index < vector_count ; index++){
 
 
-    }
+    
 }
     
