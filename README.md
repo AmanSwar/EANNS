@@ -1,5 +1,8 @@
 
-
+# PROJECT IS ON HAULT for a while 
+- active developments starts from Last week of May
+- Will ship the MVP by end of June
+- Stay tuned !
 
 ![EANNS Logo](https://github.com/AmanSwar/EANNS/blob/master/images/eannslogo.png)
 # **EANNS – Enhanced Approximate Nearest Neighbor Search**  
